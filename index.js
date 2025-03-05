@@ -21,7 +21,7 @@ app.use('', adminRoute);  // Admin routes
 
 // Test Route
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send('The server is Running');
 });
 
 
